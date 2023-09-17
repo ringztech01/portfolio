@@ -7,10 +7,7 @@ ar typed =new Typed(".typing",{
 })
 
 function sendEmail(){
-   
-    Host : "smtp.elasticemail.com",
-        Username : "ringzsystems@gmail.com",
-        Password : "7A7490BECCD59CD61F4C9652EAFF1DD384AF",
+        SecureToken: "7269333c-df91-4763-87d1-cc1d7e133457",  
         To : 'ringzsystems@gmail.com',
         From : 'ringzsystems@gmail.com',
         ReplyFrom : document.getElementById("email").value,
@@ -20,7 +17,7 @@ function sendEmail(){
         + "<br>Subject: " + document.getElementById("subject").value
         + "<br>Message: " + document.getElementById("message").value
     }).then(
-      message => alert( + document.getElementById("name").value + " Thankyou, your message has been sent")
+      message => alert( " Thankyou!. <br>Your message has been sent")
     );
 
 
