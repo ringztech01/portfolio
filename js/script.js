@@ -10,9 +10,7 @@ function sendEmail(){
    
     Email.send({
         
-      Host : "smtp.elasticemail.com",
-        Username : "ringzsystems@gmail.com",
-        Password : "7A7490BECCD59CD61F4C9652EAFF1DD384AF",
+        secureToken: "bff375ec-65cb-469b-85cb-1750454c9719",
         To : 'ringzsystems@gmail.com',
         From : 'ringzsystems@gmail.com',
         ReplyFrom : document.getElementById("email").value,
