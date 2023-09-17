@@ -6,7 +6,7 @@ ar typed =new Typed(".typing",{
     loop: true
 })
 
-function sendEmail(){
+/*function sendEmail(){
    
     Email.send({
         
@@ -22,4 +22,7 @@ function sendEmail(){
     }).then(
       message => alert("Thankyou," + document.getElementById("name").value + "  your message has been sent")
     );
+}*/
+function sendEmail(){
+    alert("Thankyou, your message has been sent")
 }
