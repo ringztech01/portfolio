@@ -10,7 +10,7 @@ function sendEmail(){
    
     Email.send({
         
-        SecureToken: "4b0cba4d-8f06-413e-b0b9-8ec6905e12f9",
+        SecureToken: "8b8f5ddc-f6d0-4357-84b9-88ab17b7917a",
         To : 'ringzsystems@gmail.com',
         From : 'ringzsystems@gmail.com',
         ReplyFrom : document.getElementById("email").value,
