@@ -15,11 +15,11 @@ function sendEmail(){
         ReplyFrom : document.getElementById("email").value,
         Subject : document.getElementById("subject").value,
         Body : document.getElementById("name").value
-            document.write("\n");
+            document.write("<br>"),
         + "Email: " + document.getElementById("email").value
-            document.write("\n");
+            document.write("<br>"),
         + "Subject: " + document.getElementById("subject").value
-            document.write("\n");
+            document.write("<br>"),
         + "Message: " + document.getElementById("message").value
 
     }).then(
