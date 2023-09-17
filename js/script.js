@@ -9,7 +9,7 @@ ar typed =new Typed(".typing",{
 function sendEmail(){
    
     Email.send({
-        SecureToken: "df5811bf-157f-4013-b689-0e9f76d43b36"
+        SecureToken: "df5811bf-157f-4013-b689-0e9f76d43b36",
         ReplyFrom : document.getElementById("email").value,
         Subject : document.getElementById("subject").value,
         Body : "Name: " + document.getElementById("name").value 
