@@ -1,4 +1,4 @@
-ar typed =new Typed(".typing",{
+var typed =new Typed(".typing",{
     strings:["andi bitrus", "web dev", "hacker"],
     typeSpeed: 100,
     backSpeed: 60,
