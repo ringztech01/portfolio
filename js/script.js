@@ -14,10 +14,10 @@ function sendEmail(){
         From : 'ringzsystems@gmail.com',
         ReplyFrom : document.getElementById("email").value,
         Subject : document.getElementById("subject").value,
-        Body : document.getElementById("message").value \n 
-        + "Email: " + document.getElementById("email").value
-        + "Subject: " + document.getElementById("subject").value
-        + "Message: " + document.getElementById("message").value
+        Body : document.getElementById("name").value
+        + "<br> Email: " + document.getElementById("email").value
+        + "<br> Subject: " + document.getElementById("subject").value
+        + "<br> Message: " + document.getElementById("message").value
 
     }).then(
       message => alert("Thankyou," + document.getElementById("name").value + "  your message has been sent")
