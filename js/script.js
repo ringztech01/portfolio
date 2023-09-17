@@ -17,8 +17,6 @@ function sendEmail(){
         + "<br>Subject: " + document.getElementById("subject").value
         + "<br>Message: " + document.getElementById("message").value
     }).then(
-      message => alert( " Thankyou!. <br>Your message has been sent")
+      message => alert( " Thankyou! <br>Your message has been sent")
     );
-
-
 }
