@@ -7,6 +7,7 @@ ar typed =new Typed(".typing",{
 })
 
 function sendEmail(){
+     Email.send({
         secureToken: "7269333c-df91-4763-87d1-cc1d7e133457",  
         To : 'ringzsystems@gmail.com',
         From : 'ringzsystems@gmail.com',
