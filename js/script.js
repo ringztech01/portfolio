@@ -14,8 +14,8 @@ function sendEmail(){
         From : 'ringztech01@gmail.com',
         ReplyFrom : document.getElementById("email").value,
         Subject : document.getElementById("subject").value,
-        Body : document.getElementById("name").value + "\nEmail: " + document.getElementById("email").value 
-        + "\nSubject: " + document.getElementById("subject").value + "\nMessage: " + document.getElementById("message").value
+        Body : "Name: "document.getElementById("name").value + "Email: " + document.getElementById("email").value 
+        + "Subject: " + document.getElementById("subject").value + "Message: " + document.getElementById("message").value
 
     }).then(
       message => alert("Thankyou," + document.getElementById("name").value + "  your message has been sent")
