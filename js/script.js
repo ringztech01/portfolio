@@ -6,7 +6,7 @@ var typed =new Typed(".typing",{
     loop: true
 })
 
-/*function sendEmail(){
+function sendEmail(){
    
     Email.send({
         
@@ -18,11 +18,12 @@ var typed =new Typed(".typing",{
         ReplyFrom : document.getElementById("email").value,
         Subject : document.getElementById("subject").value,
         Body : "Name: " + document.getElementById("name").value 
+        + "<br>Email: " + document.getElementById("email").value
+        + "<br>Subject: " + document.getElementById("subject").value
+        + "<br>Message: " + document.getElementById("message").value
+
       
     }).then(
       message => alert("Thankyou," + document.getElementById("name").value + "  your message has been sent")
     );
-}*/
-function sendEmail(){
-    alert("Thankyou, your message has been sent")
 }
